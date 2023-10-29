@@ -1,0 +1,33 @@
+{
+  "name": "basic_node",
+  "version": "1.0.0",
+  "description": "starting basic learning with node js",
+  "main": "index.js",
+ 
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahara02/basic_node.git"
+  },
+  "keywords": [
+    "fhr",
+    "node"
+  ],
+  "author": "faruk hannan",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "^5.0.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@jest/globals": "^29.7.0"
+  }
+}
